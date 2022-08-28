@@ -17,14 +17,17 @@
                     <tr>
                         <th scope="row">
                             <span style="background-color:gold; padding:5px 10px; border-radius:30px">
-                                @if (ViewBag.Counter == 1 && Model.Status == false)
+                                @if (Model.Status == false)
                                 {
-                                    <i class="fa-solid fa-crown"></i>
-                                    ViewBag.Counter++;
+                                    @if (Model.CarBids.Last().User == item)
+                                    {
+                                        <i class="fa-solid fa-crown"></i>
+                                    }
+                                    else @(++ViewBag.Counter)
                                 }
-                                else
+                                else if (Model.Status)
                                 {
-                                    @(ViewBag.Counter)
+                                    @(ViewBag.Counter++)
                                 }
                             </span>
                         </th>
@@ -41,9 +44,10 @@
 
 
 <style>
-    .table-wrapper{
-        min-height:80vh;
+    .table-wrapper {
+        min-height: 80vh;
     }
+
     .table-wrapper {
         margin-top: 30px;
         margin-bottom: 30px;

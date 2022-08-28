@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\MachineBazaarProject\\MachineBazaarProject\\MachineBazaarProject.csproj": {}
+    "C:\\Users\\User\\Desktop\\CodeProject\\MachineBazaarProject\\MachineBazaarProject\\MachineBazaarProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\MachineBazaarProject\\MachineBazaarProject\\MachineBazaarProject.csproj": {
+    "C:\\Users\\User\\Desktop\\CodeProject\\MachineBazaarProject\\MachineBazaarProject\\MachineBazaarProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\MachineBazaarProject\\MachineBazaarProject\\MachineBazaarProject.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\CodeProject\\MachineBazaarProject\\MachineBazaarProject\\MachineBazaarProject.csproj",
         "projectName": "MachineBazaarProject",
-        "projectPath": "C:\\Users\\User\\source\\repos\\MachineBazaarProject\\MachineBazaarProject\\MachineBazaarProject.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\CodeProject\\MachineBazaarProject\\MachineBazaarProject\\MachineBazaarProject.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\MachineBazaarProject\\MachineBazaarProject\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\CodeProject\\MachineBazaarProject\\MachineBazaarProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
